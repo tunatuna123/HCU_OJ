@@ -1,3 +1,7 @@
-from mimetypes import init
+#성공할 때까지 시도해야함
 import random
-print(random(init(range)))
+a = random.randint(0,1)
+if a == 0:
+    print(3)
+else:
+    print(97)
